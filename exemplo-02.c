@@ -6,6 +6,7 @@ int somarDoisNumeros(int primeiro, int segundo){
   return resultado;
 }
 int main(){
+    int a = 9;
     int resultado = somarDoisNumeros(3, 4); // chamando a função
     printf("%d\n", resultado);
     return 0;
